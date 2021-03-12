@@ -1,0 +1,361 @@
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 374px) { 
+    body{
+        background-image: url(img/phone-bg.jpg);
+    }
+    .logo{
+        margin: 20px;
+    }
+    .logo img{
+        width: 60%;
+    }
+
+    .header{
+        margin-left: 40px;
+        margin-top: 280px;
+    }
+
+    .headline{
+        top: 320px;
+        left: 40px;
+    }
+    .headline h2{
+        font-size: 20px;
+    }
+   
+    .dropdown{
+        left: 100px;
+        top: 65px;
+    }
+
+    .dropdown img{
+        width: 80%;
+    }
+
+    .dropdown-content a{
+        font-size: 14px;
+    }
+
+    .link-item{
+        padding-right: 30px;
+    }
+
+    .link-item a{
+        font-size: 14px;
+    }
+}
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 479px) { 
+    body{
+        background-image: url(img/phone-bg.jpg);
+    }
+    .logo{
+        margin: 20px;
+    }
+    .logo img{
+        width: 60%;
+    }
+
+    .header{
+        margin-left: 45px;
+        margin-top: 60vh;
+    }
+
+    .headline{
+        top: 60vh;
+        left: 45px;
+    }
+    .headline h2{
+        font-size: 25px;
+
+    }
+   
+    .dropdown{
+        left: 100px;
+        top: 65px;
+    }
+
+    .dropdown img{
+        width: 80%;
+    }
+
+    .dropdown-content a{
+        font-size: 14px;
+    }
+
+    .link-item{
+        padding-right: 30px;
+    }
+
+    .link-item a{
+        font-size: 14px;
+    }
+}
+
+
+@media only screen 
+and (min-device-width: 480px) 
+and (max-device-width: 568px) { 
+    body{
+        background-image: url(img/phone-bg.jpg);
+    }
+    .logo{
+        margin: 30px 40px;
+    }
+    .logo img{
+        width: 70%;
+    }
+
+    .header{
+        margin-left: 80px;
+        margin-top:65vh;
+    }
+
+    .headline{
+        top: 65vh;
+        left: 80px;
+    }
+    .headline h2{
+        font-size: 30px;
+
+    }
+   
+    .dropdown{
+        right: -85px;
+        top: 30px;
+    }
+
+    .link-item{
+        padding-right: 50px;
+    }
+}
+
+@media only screen 
+and (min-device-width: 569px) 
+and (max-device-width: 768px) { 
+    body{
+        background-image: url(img/phone-bg.jpg);
+    }
+    .logo{
+        margin: 40px 50px ;
+    }
+    .logo img{
+        width: 60%;
+    }
+
+    .header{
+        margin-top: 410px;
+        margin-left: 150px;
+    }
+
+    .headline{
+        top: 500px;
+        left: 10%;
+    }
+
+    .headline h2{
+        font-size: 40px;
+    }
+   
+    .dropdown{
+        right: -70px;
+        top: 20px;
+    }
+
+    .link-item{
+        padding-right: 50px;
+        left: 9%;
+    }
+}
+
+@media only screen 
+and (min-device-width: 769px) 
+and (max-device-width: 991px) { 
+    body{
+        background-image: url(img/phone-bg.jpg);
+    }
+    .logo{
+        margin: 50px 60px ;
+    }
+    .logo img{
+        width: 60%;
+    }
+
+    .header{
+        margin-left: 36%;
+        margin-top: 530px;
+    }
+
+    .headline{
+        top: 630px;
+        left: 10%;
+    }
+
+    .headline h2{
+        font-size: 40px;
+    }
+   
+    .dropdown{
+        right: -60px;
+    }
+
+    .link-item{
+        padding-right: 60px;
+    }
+}
+
+@media only screen 
+and (min-device-width: 992px) 
+and (max-device-width: 1279px) { 
+    .logo{
+        margin: 50px 60px ;
+    }
+    .logo img{
+        width: 30%;
+    }
+
+    .header{
+        margin-left: 50%;
+        margin-top: 400px;
+    }
+
+    .headline{
+        top: 480px;
+        left: 20%;
+    }
+
+    .headline h2{
+        font-size: 40px;
+    }
+   
+    .dropdown{
+        right: -80px;
+        top: -10px;
+    }
+
+    .link-item{
+        padding-right: 70px;
+    }
+}
+
+@media only screen 
+and (min-device-width: 1280px) 
+and (max-device-width: 1366px) { 
+    .logo{
+        margin: 50px 70px ;
+    }
+    .logo img{
+        width: 30%;
+    }
+
+    .header{
+        margin-left: 150px;
+        margin-top: 60px;
+    }
+
+    .headline{
+        top: 180px;
+    }
+
+    .headline h2{
+        font-size: 25px;
+    }
+   
+    .dropdown{
+        right: -40px;
+        top: -20px;
+    }
+
+    .link-item{
+        margin-top: 4vh;
+        padding-right: 60px;
+    }
+}
+
+@media only screen 
+and (min-device-width: 1367px) 
+and (max-device-width: 1499px) { 
+    .logo{
+        margin: 50px 70px ;
+    }
+    .logo img{
+        width: 30%;
+    }
+
+    .header{
+        margin-left: 150px;
+        margin-top: 85px;
+    }
+
+    .headline{
+        top: 200px;
+    }
+
+    .headline h2{
+        font-size: 25px;
+    }
+   
+    .dropdown{
+        right: -40px;
+        top: -20px;
+    }
+
+    .link-item{
+        margin-top: 4vh;
+        padding-right: 60px;
+    }
+}
+
+@media only screen 
+and (min-device-width: 1500px) 
+and (max-device-width: 1652px) { 
+
+    .logo img{
+        width: 30%;
+    }
+    .header{
+        margin-left: 12%;
+    }
+   
+    .link-item{
+        margin-top: 2vh;
+    }
+   
+    .headline{
+        top: 200px;
+    }
+   
+    .dropdown{
+        right: -30px;
+        top: -20px;
+    }
+}
+
+
+@media only screen 
+and (min-device-width: 1653px) 
+and (max-device-width: 1819px) { 
+
+.logo img{
+    width: 30%;
+}
+ .header{
+     margin-left: 11%;
+ }
+
+ .link-item{
+     margin-top: 5vh;
+ }
+
+ .headline{
+     top: 230px;
+ }
+
+ .dropdown{
+     right: -10px;
+     top: -30px;
+ }
+}

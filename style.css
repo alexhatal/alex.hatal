@@ -1,0 +1,150 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin:0;
+    padding:0;
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    scroll-margin-inline-end: 0;
+    color: rgb(170, 170, 170) ;
+}
+
+title{
+    display: none;
+}
+
+body{
+    background-image: url(img/bg2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+a:hover{
+    color: rgb(255, 0, 73);
+}
+
+.logo{
+    margin: 50px 100px;
+}
+
+.logo img{
+    width: 30%;
+}
+
+
+/* NAVBAR */
+.nav{
+    float: right;
+    position: relative;
+    top: -120px;
+    right: 120px;
+    }
+       
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    top: -30px;
+    right: 40px;
+}
+
+.dropdown img{
+    width: 30px;
+    height: 30px;
+}
+          
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4d4d4d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    z-index: 1;
+    padding: 20px 30px;
+    margin-top: -20px;
+    right: 10px;
+}
+
+.dropdown-content a{
+    padding: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover{
+    color: rgb(255, 0, 73);
+}
+
+.toggle{
+    position: relative;
+    top: -28px;
+    left: 3px;
+    opacity: 0;
+}
+
+input.toggle {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+      
+.toggle:checked ~ .dropdown-content {
+    display: block;
+}
+
+/* NAVBAR END */
+
+/* NAVBAR TWO START */
+
+/* NAVBAR END */
+
+
+
+.headline{
+    position: absolute;
+    left: 6%;
+    top: 250px
+}
+
+
+.headline h2{
+    font-size: 30px;
+    color: #7c7c7c;
+    position: relative;
+}
+
+.header{
+    margin-top: 160px;
+    margin-left: 115px;
+    color: #ffffff;
+    position: relative;
+}
+
+
+.header, .link-item{
+    display: inline-block;
+}
+
+.link-item{
+    padding-right: 100px;
+    position: relative;
+}
+
+
+.link-item a{
+text-decoration: none;
+border-bottom: 2px solid #b4b4b4;
+}
+
+.link-item a:hover{
+    transform: scale(1.1);
+    transition: transform .5s ease-in-out;
+}
+
+
+

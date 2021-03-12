@@ -1,0 +1,287 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin:0;
+    padding:0;
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    scroll-margin-inline-end: 0;
+    color: rgb(170, 170, 170) ;
+}
+
+title{
+    display: none;
+}
+
+body{
+    background-image: url(img/bg3.jpg);
+    background-size: 100%;
+}
+
+
+a:hover{
+    color: rgb(255, 0, 73);
+}
+
+.logo{
+    margin: 50px 100px;
+}
+
+.logo a{
+    width: 350px;
+}
+
+/* NAVBAR */
+.nav{
+    float: right;
+    position: relative;
+    top: -100px;
+    }
+       
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+          
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4d4d4d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    z-index: 1;
+    padding: 20px;
+    right: 200px;
+    margin-top: -20px;
+}
+
+.dropdown-content a{
+    padding: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover{
+    color: rgb(255, 0, 73);
+}
+
+.toggle{
+    position: relative;
+    top: -28px;
+    left: 3px;
+    opacity: 0;
+}
+
+input.toggle {
+    width: 30px;
+    height: 30px;
+}
+      
+.toggle:checked ~ .dropdown-content {
+    display: block;
+}
+
+/* NAVBAR END */
+
+/* PORTFOLIO START */
+
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    top: -60px;
+}
+
+.portfolio-item img{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 4px 13px -1px rgba(39,39,39,0.56);
+    -webkit-box-shadow: 3px 4px 13px -1px rgba(39,39,39,0.56);
+    -moz-box-shadow: 3px 4px 13px -1px rgba(39,39,39,0.56);
+}
+
+.portfolio-item #myBtn img:hover{
+    transform: scale(1.1);
+    transition: transform .5s ease-in-out;
+}
+
+.portfolio-item img:hover{
+    transform: scale(1.1);
+    transition: transform .5s ease-in-out;
+
+}
+
+.portfolio-item{
+    width: 15%;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 3px 4px 13px -1px rgba(39,39,39,0.56);
+    -webkit-box-shadow: 3px 4px 13px -1px rgba(39,39,39,0.56);
+    -moz-box-shadow: 3px 4px 13px -1px rgba(39,39,39,0.56);
+    cursor: pointer;
+}
+
+.pi-name{
+    color: rgb(255, 0, 73);
+    padding: 20px;
+}
+
+/* PORTFOLIO END */
+
+/* CONTACT FORM */
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 60px;
+    position: relative;
+}
+
+
+.form-item{
+    width: 40%;
+    border-radius: 20px;
+    justify-content: stretch;
+}
+
+#form-note{
+    justify-content: center;
+    text-align: center;
+    margin-left: 25%;
+}
+
+h3#form-note{
+    width: 50%;
+}
+
+.info{
+    position: absolute;
+    color: #ffffff;
+    font-weight: bolder;
+    left: 30%;
+}
+
+.info h2{
+    font-size: 40px;
+    color: #4d4d4d;
+}
+
+.info a{
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+.info a:hover{
+    color: #ff005c;
+}
+
+.info p{
+    color: #4d4d4d;
+}
+
+#my-form{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 4px 13px -1px rgba(39,39,39,0.56);
+    -webkit-box-shadow: 3px 4px 13px -1px rgba(39,39,39,0.56);
+    -moz-box-shadow: 3px 4px 13px -1px rgba(39,39,39,0.56);
+    padding: 70px 120px;
+}
+
+.form-control{
+    width: 100%;
+    background-color: #fae8ee;
+    border:none;
+    border-radius: 20px;
+    height: 35px;
+    font-size: 14px;
+}
+
+textarea{
+    min-height: 70px;
+}
+
+
+.form-item h3{
+    color: #ffffff;
+    padding: 50px;
+    font-size: 16px;
+}
+.btn-sub{
+    width: 130px;
+    height: 40px;
+    background-color: #ff95b9;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-sub:hover{
+    background-color: #ff005c;   
+}
+
+#status{
+    margin-left: 2vw;
+    padding-top: 5px;
+    font-weight: bolder;
+    font-size: 16px;
+  }
+
+#status.success{
+color: rgb(255, 255, 255);
+animation: status 4s ease forwards;
+}
+
+#status.error{
+color: rgb(243, 30, 48);
+animation: status 4s ease forwards;
+}
+
+@keyframes status{
+0%{
+  opacity: 1;
+  pointer-events: all;
+}
+90%{
+  opacity: 1;
+  pointer-events: all;
+}
+100%{
+  opacity: 0;
+  pointer-events: none;
+}
+}
+
+.more-container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+h1.more{
+    font-size: 40px;
+}
+
+i{
+    font-size: 60px;
+    color: #ff005c;
+    padding: 20px 50px;
+}
+
+.social{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
