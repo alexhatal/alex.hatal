@@ -285,3 +285,15 @@ i{
     display: inline-flex;
     flex-wrap: wrap;
 }
+
+.gd-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+h1.gd-headline{
+    font-size: 50px;
+    padding: 20px 120px;
+}
